@@ -41,11 +41,11 @@
         width: 100%; z-index: 1000;
     }
     section.slider > div ul li figure figcaption dl dt{
-        font-size: 15px; line-height: 50px; font-weight: 900;
+        font-size: 1.5vw; line-height: 50px; font-weight: 900;
         margin-bottom: 30px; text-transform: uppercase;
     }
     section.slider > div ul li figure figcaption dl dd{
-        font-size: 20px; line-height: 50px; margin-bottom: 10px;
+        font-size: 2v; line-height: 50px; margin-bottom: 10px;
     }
     section.slider > div ul li:last-of-type figure figcaption dl dd{
         font-size: 18px;
@@ -1057,7 +1057,7 @@
     }
     .sub .main ul li figure figcaption{
         position: absolute; top: 0; width: 100%; box-sizing: border-box;
-        left: 0; opacity: 0; height: 100%; padding: 2%;
+        left: 0; opacity: 0; height: 100%; padding: 2%; cursor: pointer;
     }
     .sub .main ul li figure figcaption:hover{
         opacity: 1; 
