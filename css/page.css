@@ -222,7 +222,7 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-    section.detailIMG table tr{width: 100%; font-size: 0.5vw;}
+    section.detailIMG table tr{width: 100%; font-size: 1vw;}
     section.detailIMG table tr th:nth-of-type(3){display: none;}
     section.detailIMG table tr td:nth-of-type(2){display: none;}
     section.detailIMG table tr:nth-of-type(2n+1){
@@ -234,7 +234,7 @@
     section.detailIMG table tr th{
         border-left: 1px dashed #8d8d8d;  
         color: black;  width: 100%; font-weight: 300;
-        vertical-align: middle; 
+        vertical-align: middle;
     }
     section.detailIMG table tr th:first-of-type{
         border: none;
@@ -272,7 +272,7 @@
         content: ''; display: block; visibility: hidden; clear: both;
     } 
     .wrap > ul.fullIMG > li:last-of-type figure img{float: right; width: 25%; padding: 13%;}
-    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 2%;}
+    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 2%; color: white;}
     .wrap > ul.fullIMG li:last-of-type figure figcaption dl dt{
         font-size: 3vw; font-weight: 600; line-height: 15px;
     }
@@ -624,7 +624,7 @@
         content: ''; display: block; visibility: hidden; clear: both;
     } 
     .wrap > ul.fullIMG > li:last-of-type figure img{float: right; width: 25%; padding: 10%;}
-    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 5%;}
+    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 5%; color: white;}
     .wrap > ul.fullIMG li:last-of-type figure figcaption dl dt{
         font-size: 3vw; font-weight: 600; line-height: 45px;
     }
