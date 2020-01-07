@@ -325,7 +325,7 @@
     }
     .sub .main ul li figure figcaption:hover{
         opacity: 1; 
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.8);
         animation-name: text-focus-in;
         animation-duration: 1.2s;
         animation-iteration-count: 1;
