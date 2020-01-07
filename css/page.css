@@ -222,7 +222,7 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-    section.detailIMG table tr{width: 100%; font-size: 3vw;}
+    section.detailIMG table tr{width: 100%; font-size: 2vw;}
     section.detailIMG table tr th:nth-of-type(3){display: none;}
     section.detailIMG table tr td:nth-of-type(2){display: none;}
     section.detailIMG table tr:nth-of-type(2n+1){
