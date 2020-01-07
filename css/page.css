@@ -333,11 +333,11 @@
     }
     .sub .main ul li figure figcaption dl dt strong,
     .sub .main ul li figure figcaption dl dd strong{
-        font-size: 3vw; line-height: 20px; color: white;
+        font-size: 5vw; line-height: 20px; color: white;
     }
     .sub .main ul li figure figcaption dl dt,
     .sub .main ul li figure figcaption dl dd{
-        font-size: 2.5vw; line-height: 15px; color: #8d8d8d;
+        font-size: 4vw; line-height: 15px; color: #8d8d8d;
     }
     @keyframes text-focus-in {
         0% {
