@@ -1,0 +1,1094 @@
+@media screen and (max-width:767px){
+    section.slider .bx-wrapper{
+        border:none; margin-bottom: 0;
+    }
+    section.slider .bx-wrapper .bx-pager,
+    section.slider .bx-wrapper .bx-controls-auto{
+      bottom: 20px;
+    }
+    section.slider .bx-wrapper{
+        border:none;
+    }
+    section.slider h2{display: none;}
+    section.slider > div{
+        position: relative;
+    }
+    section.slider > div ul li{display: block;}
+    section.slider > div ul li[aria-hidden="false"] figure img{
+        animation-name: opImg;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes opImg{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.5;
+        }
+    }
+    section.slider > div ul li figure{
+        position: relative; display: block; background-color: black;
+    }
+    section.slider > div ul li figure img{
+        width: 100%; min-height: 500px; border: none;
+    }
+    section.slider > div ul li figure figcaption{
+        position: absolute; color: white; 
+        text-align: center; left: auto; top: 30%;
+        width: 100%; z-index: 1000;
+    }
+    section.slider > div ul li figure figcaption dl dt{
+        font-size: 15px; line-height: 50px; font-weight: 900;
+        margin-bottom: 30px; text-transform: uppercase;
+    }
+    section.slider > div ul li figure figcaption dl dd{
+        font-size: 20px; line-height: 50px; margin-bottom: 10px;
+    }
+    section.slider > div ul li:last-of-type figure figcaption dl dd{
+        font-size: 18px;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption dl dt{
+        animation-duration: 3s; animation-name: textMove;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption dl dd{
+        animation-duration: 4s; animation-name: textMove;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption a{
+        animation-duration: 5s; animation-name: textMove;
+    }
+    @keyframes textMove{
+        from{
+            margin-top: 100%;
+        }
+        50%{
+            margin-top: 50%;
+        }
+        to{
+            margin-top: 0%;
+        }
+    }
+    section.slider > div ul li figure figcaption a{
+        background-color: #2754eb; width: 20%; line-height: 42px;
+        font-size: 11px; border: none; border-radius: 21px;
+        text-align: center; color: white; position: absolute;
+        top: 250px; left: 40%; cursor: pointer; display: block;
+        z-index: 1000; text-decoration: none;
+    }
+    ul.subLink{
+        width: 100%; 
+    }
+    ul.subLink > li{
+        width: 100%;  list-style: none; position: relative;
+    }
+    ul.subLink > li h3{
+        font-size: 20px; color: white; width: 100%; 
+        position: absolute; top: 50%; left: auto;
+        text-align: center;
+    }
+    ul.subLink > li a{
+        display: block; line-height: 0;
+        background-color:black;
+    }
+    ul.subLink > li a img{
+        width: 100%; opacity: 0.5;
+    }
+    div.socialArea > ul{
+        width: 80%; margin: 0 auto;
+    }
+    div.socialArea > h2{
+        font-size: 30px; margin: 30px 0px; text-align: center;
+        font-weight: 700;
+    }
+    div.socialArea > ul li{
+        width: 100%;
+        border-top: 3px solid #b0352f;
+        border-right: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+        border-left: 1px solid #cecece;
+        box-sizing: border-box;
+        list-style: none; padding: 80px 0;
+        position: relative; margin-left: 2%;
+        margin-bottom: 3%;
+    }
+    div.socialArea > ul li figure img{
+        width: 100%; margin-top: 20px; 
+    }
+    div.socialArea > ul li figure figcaption{
+        position: absolute; top: 15px; 
+    }
+    div.socialArea > ul li figure figcaption dl dt{
+        font-size: 14px; line-height: 20px; font-weight: 900;
+        margin-bottom: 10px; text-transform: uppercase; padding: 5px;
+    }
+    div.socialArea > ul li figure figcaption dl dd{
+        font-size: 14px; line-height: 15px; margin-bottom: 20px; padding: 5px;
+    }
+    div.socialArea > ul li figure figcaption a{
+        width: 100%; display: block;  cursor: pointer; 
+    }
+    div.socialArea > ul li figure figcaption a img{
+        width: 30%; margin: 0 35%;
+    }
+    div.socialArea > ul li:first-of-type figure figcaption a,
+    div.socialArea > ul li:nth-of-type(3) figure figcaption a{
+        margin-top: 61%;
+    }
+    div.socialArea > ul li:nth-of-type(2) figure figcaption a,
+    div.socialArea > ul li:nth-of-type(4) figure figcaption a,
+    div.socialArea > ul li:nth-of-type(5) figure figcaption a{
+        margin-top: 70%;
+    }
+    /* main fin */
+
+
+
+    .wrap{
+        margin: 0; padding: 0; width: 100%;
+    }
+    section.detailIMG{
+        background-color: black; margin: 0 auto;
+    }
+    section.detailIMG h2{display: none;}
+    section.detailIMG  .detailVIEW{
+        display: block;
+    }
+    section.detailIMG > .detailVIEW ul{display: block; margin: 0 auto;}
+    section.detailIMG > .detailVIEW ul li{
+        padding-bottom: 35px; margin: 0 auto;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure img{
+        width: 100%;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl{
+        display: block; text-align: center;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl dt{
+        font-size: 4vw; color: white; font-weight: 700;
+        margin-top: 30px;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl dd{
+        font-size: 1vw; color: #8d8d8d; font-weight: 700;
+        margin-top: 5px;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type){
+        width: 80%; text-align: center;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure{
+        width: 100%; 
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure img{
+        width: 100%;
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(2) figure img,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(4) figure img{
+        float: left; width: 50%; 
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(2) figure figcaption,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(4) figure figcaption{
+        float: left; width: 50%; 
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(3) figure img,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(5) figure img{
+        float: right; width: 50%;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption{
+        width: 50%; text-align: center; 
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption dl dt{
+        color: white; font-weight: 700; font-size: 2.5vw; padding-bottom: 30px;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption dl dd{
+        color: #8d8d8d; font-weight: 300; font-size: 2vw;
+    }
+    /* detailIMG fin */
+    
+    section.detailIMG table{
+        width: 80%; margin: 0 auto; padding-bottom: 30px;
+        table-layout: auto;
+    }
+    section.detailIMG table > caption{
+        width: 100%;
+        max-width: 230px;
+        text-indent: -9999px;
+        margin:0 auto;
+        line-height:160px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    section.detailIMG table tr{width: 100%; font-size: 0.5vw;}
+    section.detailIMG table tr th:nth-of-type(3){display: none;}
+    section.detailIMG table tr td:nth-of-type(2){display: none;}
+    section.detailIMG table tr:nth-of-type(2n+1){
+        background-color: #bdbec0; 
+    }
+    section.detailIMG table tr:nth-of-type(2n){
+        background-color: white;
+    }
+    section.detailIMG table tr th{
+        border-left: 1px dashed #8d8d8d;  
+        color: black;  width: 100%; font-weight: 300;
+        vertical-align: middle; 
+    }
+    section.detailIMG table tr th:first-of-type{
+        border: none;
+    }
+    section.detailIMG table tr td{
+        border-left: 1px dashed #8d8d8d;  
+        color: black;  width: 100%; font-weight: 300;
+        vertical-align: middle; text-align: center;
+    }
+    
+    /* table fin */
+    
+    section.detailIMG > .detailtext ul{
+        display: block; width: 80%; margin: 0 auto; padding-bottom: 35px;
+    }
+    section.detailIMG > .detailtext ul li{
+        width: 100%; list-style: none; padding-bottom: 10px;
+    }
+    section.detailIMG > .detailtext ul li h3{
+        font-weight: 600; font-size: 1.5vw; line-height: 15px; color: white; 
+    }
+    section.detailIMG > .detailtext ul li p{
+        font-weight: 300; font-size: 1vw; line-height: 15px; color: #8d8d8d;
+    }
+    .wrap > ul.fullIMG{
+        width: 100%; display: block; margin: 0 auto; 
+    }
+    .wrap > ul.fullIMG li{width: 80%; margin: 0 auto; list-style: none;}
+    .wrap > ul.fullIMG li figure img{
+        width: 100%;
+    }
+    .wrap > ul.fullIMG > li:last-of-type{background-color: #2d2d2f; }
+    .wrap > ul.fullIMG > li:last-of-type figure{vertical-align: middle;}
+    .wrap > ul.fullIMG > li:last-of-type figure::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    } 
+    .wrap > ul.fullIMG > li:last-of-type figure img{float: right; width: 25%; padding: 13%;}
+    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 2%;}
+    .wrap > ul.fullIMG li:last-of-type figure figcaption dl dt{
+        font-size: 3vw; font-weight: 600; line-height: 15px;
+    }
+    .wrap > ul.fullIMG li:last-of-type figure figcaption dl dd{
+        font-size: 1vw; font-weight: 300; line-height: 10px;
+    }
+    section.detail1 table caption{
+        background-image:url('../images/main1list.png');
+    }
+    section.detail2 table caption{
+        background-image:url('../images/main2list.png');
+    }
+    section.detail3 table caption{
+        background-image:url('../images/main3list.png');
+    }
+    section.detail4 table caption{
+        background-image:url('../images/main4list.png');
+    }
+    section.detail5 table caption{
+        background-image:url('../images/main5list.png');
+    }
+    section.detail6 table caption{
+        background-image:url('../images/main6list.png');
+    }
+    section.detail7 table caption{
+        background-image:url('../images/main7list.png');
+    }
+
+
+    /* SUB FG */
+    .sub .main h2{
+        width: 100%; margin-bottom: 50px;
+    }
+    .sub .main h2 img{
+        width: 100%;
+    }
+    .sub .main ul{
+        width: 100%; display: block; margin: 0 auto;
+    }
+    .sub .main ul li{
+        width: 90%; list-style: none; padding-bottom: 50px; max-width: 750px; margin: 0 auto;
+    }
+    .sub .main ul li figure{position: relative;}
+    .sub .main ul li figure img{
+        width: 100%; 
+    }
+    .sub .main ul li figure figcaption{
+        position: absolute; top: 0; width: 100%; box-sizing: border-box;
+        left: 0; opacity: 0; height: 100%; padding: 2%; overflow-x: scroll;
+    }
+    .sub .main ul li figure figcaption:hover{
+        opacity: 1; 
+        background-color: rgba(0, 0, 0, 0.7);
+        animation-name: text-focus-in;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+
+    }
+    .sub .main ul li figure figcaption dl dt strong,
+    .sub .main ul li figure figcaption dl dd strong{
+        font-size: 1vw; line-height: 20px; color: white;
+    }
+    .sub .main ul li figure figcaption dl dt,
+    .sub .main ul li figure figcaption dl dd{
+        font-size: 0.8vw; line-height: 15px; color: #8d8d8d;
+    }
+    @keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+    }
+}
+/* mobile Using CSS */
+@media screen and (min-width:768px) and (max-width:1024px){
+    section.slider .bx-wrapper{
+        border:none; margin-bottom: 0;
+    }
+    section.slider .bx-wrapper .bx-pager,
+    section.slider .bx-wrapper .bx-controls-auto{
+      bottom: 20px;
+      padding: 0%;
+    }
+    section.slider h2{display: none;}
+    section.slider > div{
+        position: relative;
+    }
+    section.slider > div ul li{display: block;}
+    section.slider > div ul li[aria-hidden="false"] figure img{
+        animation-name: opImg;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes opImg{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.5;
+        }
+    }
+    section.slider > div ul li figure{
+        position: relative; display: block; background-color: black;
+    }
+    section.slider > div ul li figure img{
+        width: 100%; min-height: 500px; border: none;
+    }
+    section.slider > div ul li figure figcaption{
+        position: absolute; color: white; 
+        text-align: center; left: auto; top: 30%;
+        width: 100%; z-index: 1000;
+    }
+    section.slider > div ul li figure figcaption dl dt{
+        font-size: 25px; line-height: 50px; font-weight: 900;
+        margin-bottom: 30px; text-transform: uppercase;
+    }
+    section.slider > div ul li figure figcaption dl dd{
+        font-size: 30px; line-height: 50px; margin-bottom: 10px;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption dl dt{
+        animation-duration: 3s; animation-name: textMove;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption dl dd{
+        animation-duration: 4s; animation-name: textMove;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption a{
+        animation-duration: 5s; animation-name: textMove;
+    }
+    @keyframes textMove{
+        from{
+            margin-top: 100%;
+        }
+        50%{
+            margin-top: 50%;
+        }
+        to{
+            margin-top: 0%;
+        }
+    }
+    section.slider > div ul li figure figcaption a{
+        background-color: #2754eb; width: 20%; line-height: 42px;
+        font-size: 11px; border: none; border-radius: 21px;
+        text-align: center; color: white; position: absolute;
+        top: 250px; left: 40%; cursor: pointer; display: block;
+        z-index: 1000; text-decoration: none;
+    }
+    ul.subLink{
+        width: 100%; 
+    }
+    ul.subLink::after{content: ''; display: block; visibility: hidden; clear: both;}
+    ul.subLink > li{
+        width: 33.33%; float: left; list-style: none; position: relative;
+    }
+    ul.subLink > li h3{
+        font-size: 20px; color: white; width: 100%; 
+        position: absolute; top: 50%; left: auto;
+        text-align: center;
+    }
+    ul.subLink > li a{
+        display: block; line-height: 0;
+        background-color:black;
+    }
+    ul.subLink > li a img{
+        width: 100%; opacity: 0.5;
+    }
+    div.socialArea > ul{
+        width: 90%; margin: 0 auto;
+    }
+    div.socialArea > h2{
+        font-size: 50px; margin: 30px 0px; text-align: center;
+        font-weight: 700;
+    }
+    div.socialArea > ul::after{content: ''; display: block; visibility: hidden; clear: both;}
+    div.socialArea > ul li{
+        float: left; width: 49%;
+        border-top: 3px solid #b0352f;
+        border-right: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+        border-left: 1px solid #cecece;
+        box-sizing: border-box;
+        list-style: none; padding: 80px 0;
+        position: relative; margin-left: 2%;
+        margin-bottom: 2.33%;
+    }
+    div.socialArea > ul li:first-of-type,
+    div.socialArea > ul li:nth-of-type(3),
+    div.socialArea > ul li:nth-of-type(5){margin-left: 0;}
+    div.socialArea > ul li figure img{
+        width: 100%; margin-top: 20px; 
+    }
+    div.socialArea > ul li figure figcaption{
+        position: absolute; top: 15px; 
+    }
+    div.socialArea > ul li figure figcaption dl dt{
+        font-size: 14px; line-height: 20px; font-weight: 900;
+        margin-bottom: 10px; text-transform: uppercase; padding: 5px;
+    }
+    div.socialArea > ul li figure figcaption dl dd{
+        font-size: 14px; line-height: 15px; margin-bottom: 20px; padding: 5px;
+    }
+    div.socialArea > ul li figure figcaption a{
+        width: 100%; display: block;  cursor: pointer; 
+    }
+    div.socialArea > ul li figure figcaption a img{
+        width: 30%; margin: 0 35%;
+    }
+    div.socialArea > ul li:first-of-type figure figcaption a,
+    div.socialArea > ul li:nth-of-type(3) figure figcaption a{
+        margin-top: 61%;
+    }
+    div.socialArea > ul li:nth-of-type(2) figure figcaption a,
+    div.socialArea > ul li:nth-of-type(4) figure figcaption a,
+    div.socialArea > ul li:nth-of-type(5) figure figcaption a{
+        margin-top: 70%;
+    }
+    /* main fin */
+
+
+    .wrap{
+        margin: 0; padding: 0; width: 100%;
+    }
+    section.detailIMG{
+        background-color: black; margin: 0 auto;
+    }
+    section.detailIMG h2{display: none;}
+    section.detailIMG .detailVIEW{
+        display: block;
+    }
+    section.detailIMG > .detailVIEW ul{display: block; margin: 0 auto;}
+    section.detailIMG > .detailVIEW ul li{
+        padding-bottom: 35px; margin: 0 auto;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure img{
+        width: 100%;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl{
+        display: block; text-align: center;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl dt{
+        font-size: 4vw; color: white; font-weight: 700;
+        margin-top: 30px;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl dd{
+        font-size: 1vw; color: #8d8d8d; font-weight: 700;
+        margin-top: 5px;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type){
+        width: 80%; text-align: center;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure{
+        width: 100%; 
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure img{
+        width: 100%;
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(2) figure img,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(4) figure img{
+        float: left; width: 50%; 
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(2) figure figcaption,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(4) figure figcaption{
+        float: left; width: 50%; 
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(3) figure img,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(5) figure img{
+        float: right; width: 50%;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption{
+        width: 50%; text-align: center; 
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption dl dt{
+        color: white; font-weight: 700; font-size: 2.5vw; padding-bottom: 30px;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption dl dd{
+        color: #8d8d8d; font-weight: 300; font-size: 2vw;
+    }
+    /* detailIMG fin */
+    
+    section.detailIMG table{
+        width: 80%; display: block; margin: 0 auto; padding-bottom: 35px; 
+    }
+    section.detailIMG table > caption{
+        width: 100%;
+        max-width: 350px;
+        text-indent: -9999px;
+        margin:0 auto;
+        line-height:160px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    section.detailIMG table tr:nth-of-type(2n+1){
+        background-color: #bdbec0;
+    }
+    section.detailIMG table tr:nth-of-type(2n){
+        background-color: white;
+    }
+    section.detailIMG table tr th{
+        border-left: 1px dashed #8d8d8d;  
+        color: black;  width: 8.43vw; height: 45px;
+        vertical-align: middle; font-size: 2vw;
+    }
+    section.detailIMG table tr th:first-of-type{
+        border: none;
+    }
+    section.detailIMG table tr td{
+        border-left: 1px dashed #8d8d8d;  
+        color: black;  width: 8.43vw; height: 45px;
+        vertical-align: middle; font-size: 2vw;
+        text-align: center;
+    }
+    
+    /* table fin */
+    
+    section.detailIMG > .detailtext ul{
+        display: block; width: 80%; margin: 0 auto; padding-bottom: 35px;
+    }
+    section.detailIMG > .detailtext ul li{
+        width: 100%; list-style: none; padding-bottom: 15px;
+    }
+    section.detailIMG > .detailtext ul li h3{
+        font-weight: 600; font-size: 1.8vw; line-height: 20px; color: white; 
+    }
+    section.detailIMG > .detailtext ul li p{
+        font-weight: 300; font-size: 1.5vw; line-height: 15px; color: #8d8d8d;
+    }
+    
+    .wrap > ul.fullIMG{
+        width: 100%; display: block; margin: 0 auto;
+    }
+    .wrap > ul.fullIMG li{width: 80%; margin: 0 auto; list-style: none;}
+    .wrap > ul.fullIMG li  figure img{
+        width: 100%;
+    }
+    .wrap > ul.fullIMG > li:last-of-type{background-color: #2d2d2f; }
+    .wrap > ul.fullIMG > li:last-of-type figure{vertical-align: middle;}
+    .wrap > ul.fullIMG > li:last-of-type figure::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    } 
+    .wrap > ul.fullIMG > li:last-of-type figure img{float: right; width: 25%; padding: 10%;}
+    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 5%;}
+    .wrap > ul.fullIMG li:last-of-type figure figcaption dl dt{
+        font-size: 3vw; font-weight: 600; line-height: 45px;
+    }
+    .wrap > ul.fullIMG li:last-of-type figure figcaption dl dd{
+        font-size: 1.5vw; font-weight: 300; line-height: 15px;
+    }
+    /* detail fin */
+    section.detail1 table caption{
+        background-image:url('../images/main1list.png');
+    }
+    section.detail2 table caption{
+        background-image:url('../images/main2list.png');
+    }
+    section.detail3 table caption{
+        background-image:url('../images/main3list.png');
+    }
+    section.detail4 table caption{
+        background-image:url('../images/main4list.png');
+    }
+    section.detail5 table caption{
+        background-image:url('../images/main5list.png');
+    }
+    section.detail6 table caption{
+        background-image:url('../images/main6list.png');
+    }
+    section.detail7 table caption{
+        background-image:url('../images/main7list.png');
+    }
+
+
+    /* SUB FG */
+    .sub .main h2{
+        width: 100%; margin-bottom: 50px;
+    }
+    .sub .main h2 img{
+        width: 100%;
+    }
+    .sub .main ul{
+        width: 100%; display: block; margin: 0 auto;
+    }
+    .sub .main ul li{
+        width: 90%; list-style: none; padding-bottom: 50px; max-width: 750px; margin: 0 auto;
+    }
+    .sub .main ul li figure{position: relative;}
+    .sub .main ul li figure img{
+        width: 100%; 
+    }
+    .sub .main ul li figure figcaption{
+        position: absolute; top: 0; width: 100%; box-sizing: border-box;
+        left: 0; opacity: 0; height: 100%; padding: 2%;
+    }
+    .sub .main ul li figure figcaption:hover{
+        opacity: 1; 
+        background-color: rgba(0, 0, 0, 0.7);
+        animation-name: text-focus-in;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+
+    }
+    .sub .main ul li figure figcaption dl dt strong,
+    .sub .main ul li figure figcaption dl dd strong{
+        font-size: 2vw; line-height: 30px; color: white;
+    }
+    .sub .main ul li figure figcaption dl dt,
+    .sub .main ul li figure figcaption dl dd{
+        font-size: 1.5vw; line-height: 15px; color: #8d8d8d;
+    }
+    @keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+    }
+}
+/* tablet Using CSS */
+@media screen and (min-width:1025px){
+    section.slider .bx-wrapper{
+        border:none; margin-bottom: 0;
+    }
+    section.slider .bx-wrapper .bx-pager,
+    section.slider .bx-wrapper .bx-controls-auto{
+      bottom: 20px;
+      padding: 0%;
+    }
+    section.slider h2{display: none;}
+    section.slider > div{
+        position: relative; 
+    }
+    section.slider > div ul li{display: block;}
+    section.slider > div ul li[aria-hidden="false"] figure img{
+        animation-name: opImg;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes opImg{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.5;
+        }
+    }
+    section.slider > div ul li figure{
+        position: relative; display: block; background-color: black;
+    }
+    section.slider > div ul li figure img{
+        width: 100%; min-height: 500px; border: none;
+    }
+    section.slider > div ul li figure figcaption{
+        position: absolute; color: white; 
+        text-align: center; left: auto; top: 30%;
+        width: 100%; 
+        z-index: 1000;
+    }
+    section.slider > div ul li figure figcaption dl dt{
+        font-size: 40px; line-height: 50px; font-weight: 900;
+        margin-bottom: 50px; text-transform: uppercase;
+    }
+    section.slider > div ul li figure figcaption dl dd{
+        font-size: 50px; line-height: 50px; margin-bottom: 50px;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption dl dt{
+        animation-duration: 3s; animation-name: textMove;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption dl dd{
+        animation-duration: 4s; animation-name: textMove;
+    }
+    section.slider > div ul li[aria-hidden="false"] figure figcaption a{
+        animation-duration: 5s; animation-name: textMove;
+    }
+    @keyframes textMove{
+        from{
+            margin-top: 100%;
+        }
+        50%{
+            margin-top: 50%;
+        }
+        to{
+            margin-top: 0%;
+        }
+    }
+    section.slider > div ul li figure figcaption a{
+        background-color: #2754eb; width: 10%; line-height: 42px;
+        font-size: 11px; border: none; border-radius: 21px;
+        text-align: center; color: white; position: absolute;
+        top: 90%; left: 45%; cursor: pointer; display: block;
+        z-index: 1000; text-decoration: none;
+    }
+    ul.subLink{
+        width: 100%; 
+    }
+    ul.subLink::after{content: ''; display: block; visibility: hidden; clear: both;}
+    ul.subLink > li{
+        width: 33.33%; float: left; list-style: none; position: relative;
+    }
+    ul.subLink > li h3{
+        font-size: 35px; color: white; text-align: center; width: 100%;
+        position: absolute; top: 50%; left: auto;
+    }
+    ul.subLink > li:hover h3{
+        animation-name: tracking-in-contract;
+        animation-duration: 0.8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes tracking-in-contract {
+        0% {
+          letter-spacing: 20px;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          letter-spacing: normal;
+          opacity: 1;
+        }
+      }
+    ul.subLink > li a{
+        display: block; line-height: 0;
+        background-color:black;
+    }
+    ul.subLink > li a img{
+        width: 100%; 
+        opacity: 0.5;
+    }
+    ul.subLink > li a img:hover{
+        opacity: 1;
+    }
+    div.socialArea > ul{
+        width: 70%; margin: 0 auto;
+    }
+    div.socialArea > h2{
+        font-size: 50px; margin: 30px 0px; text-align: center;
+        font-weight: 700;
+    }
+    div.socialArea > ul::after{content: ''; display: block; visibility: hidden; clear: both;}
+    div.socialArea > ul li{
+        float: left; width: 23%;
+        border-top: 3px solid #b0352f;
+        border-right: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+        border-left: 1px solid #cecece;
+        box-sizing: border-box;
+        list-style: none;
+        position: relative; margin-left: 2.33%;
+        margin-bottom: 2.33%;
+    }
+    div.socialArea > ul li:first-of-type{
+        margin-left: 0; padding: 80px 0;
+    }
+    div.socialArea > ul li:nth-of-type(3){
+        padding: 80px 0;
+    }
+    div.socialArea > ul li:nth-of-type(2),
+    div.socialArea > ul li:nth-of-type(4),
+    div.socialArea > ul li:nth-of-type(5){
+        padding: 45px 0;
+    }
+    div.socialArea > ul li figure img{
+        width: 100%; margin-top: 20px; 
+    }
+    div.socialArea > ul li figure figcaption{
+        position: absolute; top: 15px; 
+    }
+    div.socialArea > ul li figure figcaption dl dt{
+        font-size: 14px; line-height: 20px; font-weight: 900;
+        margin-bottom: 10px; text-transform: uppercase; padding: 5px;
+    }
+    div.socialArea > ul li figure figcaption dl dd{
+        font-size: 14px; line-height: 15px; margin-bottom: 20px; padding: 5px;
+    }
+    div.socialArea > ul li figure figcaption a{
+        width: 100%; display: block;  cursor: pointer; 
+    }
+    div.socialArea > ul li figure figcaption a img{
+        width: 30%; margin: 0 35%;
+    }
+    div.socialArea > ul li:first-of-type figure figcaption a,
+    div.socialArea > ul li:nth-of-type(3) figure figcaption a{
+        margin-top: 63%;
+    }
+    div.socialArea > ul li:nth-of-type(2) figure figcaption a,
+    div.socialArea > ul li:nth-of-type(4) figure figcaption a,
+    div.socialArea > ul li:nth-of-type(5) figure figcaption a{
+        margin-top: 55%;
+    }
+    /* main Fin */
+
+
+    /* DETAIL FG */
+
+    .detail{
+        margin: 0; padding: 0; width: 100%;
+    }
+    section.detailIMG{
+        background-color: black; margin: 0 auto;
+    }
+    section.detailIMG h2{display: none;}
+    section.detailIMG .detailVIEW{
+        display: block;
+    }
+    section.detailIMG > .detailVIEW ul{display: block; margin: 0 auto;}
+    section.detailIMG > .detailVIEW ul li{
+        padding-bottom: 35px; margin: 0 auto;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure img{
+        width: 100%;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl{
+        display: block; text-align: center;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl dt{
+        font-size: 4vw; color: white; font-weight: 700;
+        margin-top: 30px;
+    }
+    section.detailIMG > .detailVIEW ul li:first-of-type figure figcaption dl dd{
+        font-size: 1vw; color: #8d8d8d; font-weight: 700;
+        margin-top: 5px;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type){
+        width: 80%; text-align: center;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure{
+        width: 100%; 
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure img{
+        width: 100%;
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(2) figure img,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(4) figure img{
+        float: left; width: 50%; 
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(2) figure figcaption,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(4) figure figcaption{
+        float: left; width: 50%; 
+    }
+    section.detailIMG > .detailVIEW ul li:nth-of-type(3) figure img,
+    section.detailIMG > .detailVIEW ul li:nth-of-type(5) figure img{
+        float: right; width: 50%;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption{
+        width: 50%; text-align: center; 
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption dl dt{
+        color: white; font-weight: 700; font-size: 2.5vw; padding-bottom: 30px;
+    }
+    section.detailIMG > .detailVIEW ul li:not(:first-of-type) figure figcaption dl dd{
+        color: #8d8d8d; font-weight: 300; font-size: 2vw;
+    }
+    /* detailIMG fin */
+    
+    section.detailIMG table{
+        width: 80%; display: block; margin: 0 auto; padding-bottom: 35px;
+    }
+    section.detailIMG table > caption{
+        width: 100%;
+        max-width: 500px;
+        text-indent: -9999px;
+        margin:0 auto;
+        line-height:160px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    section.detailIMG table tr:nth-of-type(2n+1){
+        background-color: #bdbec0;
+    }
+    section.detailIMG table tr:nth-of-type(2n){
+        background-color: white;
+    }
+    section.detailIMG table tr th{
+        border-left: 1px dashed #8d8d8d;  
+        color: black;  width: 8.43vw; height: 45px;
+        vertical-align: middle;
+    }
+    section.detailIMG table tr th:first-of-type{border: none;}
+    section.detailIMG table tr td{
+        border-left: 1px dashed #8d8d8d;
+        color: black;  width: 8.43vw; height: 45px;
+        vertical-align: middle; text-align: center;
+    }
+    
+    /* table fin */
+    
+    section.detailIMG > .detailtext ul{
+        display: block; width: 80%; margin: 0 auto; padding-bottom: 35px;
+    }
+    section.detailIMG > .detailtext ul li{
+        width: 100%; list-style: none; padding-bottom: 30px;
+    }
+    section.detailIMG > .detailtext ul li h3{
+        font-weight: 600; font-size: 1.5vw; line-height: 40px; color: white; 
+    }
+    section.detailIMG > .detailtext ul li p{
+        font-weight: 300; font-size: 1vw; line-height: 25px; color: #8d8d8d;
+    }
+    
+    .wrap > ul.fullIMG{
+        width: 100%; display: block; margin: 0 auto; 
+    }
+    .wrap > ul.fullIMG li{width: 80%; margin: 0 auto; list-style: none;}
+    .wrap > ul.fullIMG li  figure img{
+        width: 100%;
+    }
+    .wrap > ul.fullIMG > li:last-of-type{background-color: #2d2d2f; }
+    .wrap > ul.fullIMG > li:last-of-type figure{vertical-align: middle;}
+    .wrap > ul.fullIMG > li:last-of-type figure::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    } 
+    .wrap > ul.fullIMG > li:last-of-type figure img{float: right; width: 25%; padding: 5%;}
+    .wrap > ul.fullIMG > li:last-of-type figure  figcaption{width: 65%; text-align: center; padding: 5%; color: white;}
+    .wrap > ul.fullIMG li:last-of-type figure figcaption dl dt{
+        font-size: 3vw; font-weight: 600; line-height: 45px;
+    }
+    .wrap > ul.fullIMG li:last-of-type figure figcaption dl dd{
+        font-size: 1vw; font-weight: 300; line-height: 35px;
+    }
+    /* detail fin */
+
+    section.detail1 table caption{
+        background-image:url('../images/main1list.png');
+    }
+    section.detail2 table caption{
+        background-image:url('../images/main2list.png');
+    }
+    section.detail3 table caption{
+        background-image:url('../images/main3list.png');
+    }
+    section.detail4 table caption{
+        background-image:url('../images/main4list.png');
+    }
+    section.detail5 table caption{
+        background-image:url('../images/main5list.png');
+    }
+    section.detail6 table caption{
+        background-image:url('../images/main6list.png');
+    }
+    section.detail7 table caption{
+        background-image:url('../images/main7list.png');
+    }
+
+
+    /* SUB FG */
+    .sub .main h2{
+        width: 100%; margin-bottom: 50px;
+    }
+    .sub .main h2 img{
+        width: 100%;
+    }
+    .sub .main ul{
+        width: 100%; display: block; margin: 0 auto;
+    }
+    .sub .main ul li{
+        width: 60%; max-width: 750px; list-style: none; padding-bottom: 50px; margin: 0 auto;
+    }
+    .sub .main ul li figure{position: relative; cursor: pointer;}
+    .sub .main ul li figure img{
+        width: 100%; 
+    }
+    .sub .main ul li figure figcaption{
+        position: absolute; top: 0; width: 100%; box-sizing: border-box;
+        left: 0; opacity: 0; height: 100%; padding: 2%;
+    }
+    .sub .main ul li figure figcaption:hover{
+        opacity: 1; 
+        background-color: rgba(0, 0, 0, 0.7);
+        animation-name: text-focus-in;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+
+    }
+    .sub .main ul li figure figcaption dl dt strong,
+    .sub .main ul li figure figcaption dl dd strong{
+        font-size: 1vw; line-height: 28px; color: white;
+    }
+    .sub .main ul li figure figcaption dl dt,
+    .sub .main ul li figure figcaption dl dd{
+        font-size: 0.8vw; line-height: 20px; color: #8d8d8d;
+    }
+
+    @keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+    }
+      
+}
+    
+/* desktop Using CSS */

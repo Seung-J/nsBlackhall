@@ -1,0 +1,169 @@
+header nav ul li,
+.subLink h3,
+footer ul li,
+.sub .solt ul li figure figcaption dl dt strong,
+sub .solt ul li figure figcaption dl dd strong{
+    font-family: Ubuntu;
+}
+.slider div ul li figure figcaption dl dt,
+.slider div ul li figure figcaption dl dd,
+.slider div ul li figure figcaption input,
+.aocialArea h2,
+.sub .solt ul li figure figcaption dl dt,
+sub .solt ul li figure figcaption dl dd{
+    font-family: Rajdhani;
+}
+/* All Using CSS */
+@media screen and (max-width:767px){
+    .wrap{margin: 0; padding: 0;}
+    .wrap > header{background-color: black; display: block;}
+    .wrap > header::after{content: ''; display: block; visibility: hidden; clear: both;}
+    .wrap > header h1{
+        width: 15%; float: left; padding: 10px 20px; margin-left: 39%;
+    }
+    .wrap > header h1 a{
+        display: block;
+        background: url('../images/toplogo.png') no-repeat left top;
+        background-size: contain;
+        width: 100%; height: 40px;
+        text-indent: -9999px;
+    }
+    .wrap > header nav{display:block; width: 100%;}
+    .wrap > header nav .mui{display: block; color: white; margin-left: 90%; padding-top: 15px;}
+    .wrap > header nav label.mui{
+        width: 30px; cursor: pointer; 
+    }
+    .wrap > header nav input[type="checkbox"]{display: none;}
+    .wrap > header nav label.mui + input[type='checkbox']#mnav:checked + ul{
+        height: 140px; padding-top: 20px;
+    }
+    .wrap > header nav ul{
+        height:0; overflow: hidden; transition-duration:2s;
+    }
+    .wrap > header nav ul li{
+        display: block; margin-bottom: 20px;
+        text-align: right; margin-right: 30px;
+    }
+    .wrap > header nav ul li:first-child{margin-left: 0;}
+    .wrap > header nav ul li a{
+        font-size: 13px; font-weight: 900; color: white;
+        text-decoration: none;
+    }
+    .wrap > header nav ul li a:hover,
+    .wrap > header nav ul li a.active{color: sandybrown;}
+    /* header nav Fin */
+    .wrap > footer{
+        background-color: #282828; ; text-align: center; padding: 20px 0px 50px 0;
+        width: 100%;
+    }
+    .wrap > footer h2{
+        width: 30%; margin: auto; padding: 20px 0 35px 0;
+        background: url('../images/footerlogo.png') no-repeat center;
+        background-size: contain;
+        text-indent: -9999px;
+    }
+    .wrap > footer h2 img{width: 100%;}
+    .wrap > footer ul li{
+        display: block; margin-bottom: 10px;
+    }
+    .wrap > footer ul li a{
+        text-decoration: none; color: white;
+    }
+}
+/* mobile Using CSS */
+@media screen and (min-width:768px) and (max-width:1024px){
+    .wrap > header nav label,
+    .wrap > header nav input{display: none !important;}
+    .wrap{margin: 0; padding: 0;}
+    .wrap > header{background-color: black; display: block;}
+    .wrap > header::after{content: ''; display: block; visibility: hidden; clear: both;}
+    .wrap > header h1{
+        width: 4%; float: left; padding: 10px 20px;
+    }
+    .wrap > header h1 a{
+        display: block;
+        background: url('../images/toplogo.png') no-repeat left top;
+        background-size: contain;
+        width: 100%; height: 40px;
+        text-indent: -9999px;
+    }
+    .wrap > header nav ul::after{content: ''; display: block; visibility: hidden; clear: both;}
+    .wrap > header nav ul li{
+        float: left; margin-right: 15px; margin-top: 5px;
+    }
+    .wrap > header nav ul li a{
+        display: block; color: white; text-decoration: none; font-size: 12px;
+        font-weight: 500; margin-top: 18px;
+    }
+    .wrap > header nav ul li a:hover,
+    .wrap > header nav ul li a.active{color: sandybrown;}
+    /* header nav Fin */
+    .wrap > footer{
+        background-color: #282828; ; text-align: center; padding: 20px 0px 50px 0;
+        width: 100%;
+    }
+    .wrap > footer h2{
+        width: 30%; margin: auto; padding: 20px 0 35px 0;
+        background: url('../images/footerlogo.png') no-repeat center;
+        background-size: contain;
+        text-indent: -9999px;
+    }
+    .wrap > footer ul li{
+        display: inline-block; margin-left: 20px; margin-top: 30px;
+        border-right: 2px solid white; padding-right: 20px;
+    }
+    .wrap > footer ul li:last-of-type{
+        padding: 0; border: none;
+    }
+    .wrap > footer ul li a{
+        text-decoration: none; color: white;
+    }
+}
+/* tablet Using CSS */
+@media screen and (min-width:1025px){
+    .wrap > header nav label,
+    .wrap > header nav input{display: none !important;}
+    .wrap{margin: 0; padding: 0;}
+    .wrap > header{background-color: black; display: block;}
+    .wrap > header::after{content: ''; display: block; visibility: hidden; clear: both;}
+    .wrap > header h1{width: 4%; float: left; padding: 10px 20px;}
+    .wrap > header h1 a{
+        display: block;
+        background: url('../images/toplogo.png') no-repeat left top;
+        background-size: contain;
+        width: 100%; height: 45px;
+        text-indent: -9999px;
+    }
+    .wrap > header nav ul::after{content: ''; display: block; visibility: hidden; clear: both;}
+    .wrap > header nav ul li{
+        float: left; margin-right: 15px;
+    }
+    .wrap > header nav ul li a{
+        display: block; color: white; text-decoration: none; font-size: 15px;
+        font-weight: 500; margin-top: 25px;
+    }
+    .wrap > header nav ul li a:hover,
+    .wrap > header nav ul li a.active{color: sandybrown;}
+    /* header nav Fin */
+    .wrap > footer{
+        background-color: #282828; ; text-align: center; padding: 20px 0px 50px 0;
+        width: 100%;
+    }
+    .wrap > footer h2{
+        width: 20%; margin: auto; padding: 40px 0;
+        background: url('../images/footerlogo.png') no-repeat center;
+        background-size: contain;
+        text-indent: -9999px;
+    }
+    .wrap > footer ul li{
+        display: inline-block; margin-left: 20px; margin-top: 40px;
+        border-right: 2px solid white; padding-right: 20px;
+    }
+    .wrap > footer ul li:last-of-type{
+        padding: 0; border: none;
+    }
+    .wrap > footer ul li a{
+        text-decoration: none; color: white;
+    }
+}
+/* desktop Using CSS */
