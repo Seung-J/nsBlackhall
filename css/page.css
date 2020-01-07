@@ -257,7 +257,7 @@
         font-weight: 600; font-size: 3vw; line-height: 15px; color: white; 
     }
     section.detailIMG > .detailtext ul li p{
-        font-weight: 300; font-size: 5vw; line-height: 15px; color: #8d8d8d;
+        font-weight: 300; font-size: 7vw; line-height: 10px; color: #8d8d8d;
     }
     .wrap > ul.fullIMG{
         width: 100%; display: block; margin: 0 auto; 
