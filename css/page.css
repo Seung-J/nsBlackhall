@@ -45,7 +45,7 @@
         margin-bottom: 30px; text-transform: uppercase;
     }
     section.slider > div ul li figure figcaption dl dd{
-        font-size: 2v; line-height: 50px; margin-bottom: 10px;
+        font-size: 2vw; line-height: 50px; margin-bottom: 10px;
     }
     section.slider > div ul li:last-of-type figure figcaption dl dd{
         font-size: 18px;
