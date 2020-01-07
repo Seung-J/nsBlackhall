@@ -41,11 +41,11 @@
         width: 100%; z-index: 1000;
     }
     section.slider > div ul li figure figcaption dl dt{
-        font-size: 15px; line-height: 50px; font-weight: 900;
+        font-size: 3vw; line-height: 25px; font-weight: 900;
         margin-bottom: 30px; text-transform: uppercase;
     }
     section.slider > div ul li figure figcaption dl dd{
-        font-size: 20px; line-height: 50px; margin-bottom: 10px;
+        font-size: 4vw; line-height: 30px; margin-bottom: 10px;
     }
     section.slider > div ul li:last-of-type figure figcaption dl dd{
         font-size: 18px;
