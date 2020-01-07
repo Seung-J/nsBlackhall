@@ -331,6 +331,14 @@
         animation-iteration-count: 1;
 
     }
+    .sub .main ul li figure figcaption:active{
+        opacity: 1; 
+        background-color: rgba(0, 0, 0, 0.8);
+        animation-name: text-focus-in;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+
+    }
     .sub .main ul li figure figcaption dl dt strong,
     .sub .main ul li figure figcaption dl dd strong{
         font-size: 2vw; line-height: 20px; color: white;
