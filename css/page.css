@@ -322,11 +322,14 @@
     .sub .main ul li figure figcaption{
         position: absolute; top: 0; width: 100%; box-sizing: border-box;
         left: 0; opacity: 0; height: 100%; padding: 2%; overflow-x: scroll;
-        cursor: pointer; background-color: rgba(0, 0, 0, 0.8); opacity: 0;
-        transition: all 1s; -ms-transition: all 1s; -webkit-transition: all 1s; -o-transition: all 1s; -moz-transition: all 1s;
     }
     .sub .main ul li figure figcaption:hover{
         opacity: 1; 
+        background-color: rgba(0, 0, 0, 0.8);
+        animation-name: text-focus-in;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+
     }
     .sub .main ul li figure figcaption dl dt strong,
     .sub .main ul li figure figcaption dl dd strong{
@@ -336,7 +339,7 @@
     .sub .main ul li figure figcaption dl dd{
         font-size: 1.5vw; line-height: 15px; color: #8d8d8d;
     }
-    /* @keyframes text-focus-in {
+    @keyframes text-focus-in {
         0% {
           -webkit-filter: blur(12px);
                   filter: blur(12px);
@@ -347,7 +350,7 @@
                   filter: blur(0px);
           opacity: 1;
         }
-    } */
+    }
 }
 /* mobile Using CSS */
 @media screen and (min-width:768px) and (max-width:1024px){
