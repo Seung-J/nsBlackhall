@@ -322,6 +322,7 @@
     .sub .main ul li figure figcaption{
         position: absolute; top: 0; width: 100%; box-sizing: border-box;
         left: 0; opacity: 0; height: 100%; padding: 2%; overflow-x: scroll;
+        z-index: 1000;
     }
     .sub .main ul li figure figcaption:hover{
         opacity: 1; 
