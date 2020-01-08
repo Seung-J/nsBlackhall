@@ -320,12 +320,12 @@
         width: 100%; 
     }
     .sub .main ul li figure figcaption{
-        position: absolute; top: 0; width: 100%; box-sizing: border-box;
-        left: 0; opacity: 0; height: 100%; padding: 2%; overflow-x: scroll;
+        position: absolute; top: 100%; width: 100%; box-sizing: border-box;
+        left: 0;  height: 100%; padding: 2%; overflow-x: scroll;
         z-index: 1000;
     }
     .sub .main ul li figure:hover figcaption{
-        opacity: 1; 
+        top:0;
         background-color: rgba(0, 0, 0, 0.8);
         /* animation-name: text-focus-in;
         animation-duration: 1.2s;
