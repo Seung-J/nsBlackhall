@@ -324,7 +324,7 @@
         left: 0; opacity: 0; height: 100%; padding: 2%; overflow-x: scroll;
         z-index: 1000;
     }
-    .sub .main ul li figure figcaption:hover{
+    .sub .main ul li figure:hover figcaption{
         opacity: 1; 
         background-color: rgba(0, 0, 0, 0.8);
         animation-name: text-focus-in;
