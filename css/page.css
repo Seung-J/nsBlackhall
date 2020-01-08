@@ -323,7 +323,7 @@
         position: absolute; top: 0; width: 100%; box-sizing: border-box;
         left: 0; opacity: 0; height: 100%; padding: 2%; overflow-x: scroll;
     }
-    .sub .main ul li figure figcaption:hover{
+    .sub .main ul li:hover figure figcaption{
         opacity: 1; 
         background-color: rgba(0, 0, 0, 0.8);
         animation-name: text-focus-in;
