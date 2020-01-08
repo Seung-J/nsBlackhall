@@ -324,7 +324,7 @@
         left: 0; height: 100%; padding: 2%; overflow-x: scroll;
         z-index: 1000; display: none;
     }
-    .sub .main ul li:hover figure figcaption{
+    .sub .main ul li:focus figure figcaption{
         display: block; 
         background-color: rgba(0, 0, 0, 0.8);
         /* animation-name: text-focus-in;
