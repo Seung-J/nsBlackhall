@@ -6,6 +6,13 @@
     section.slider .bx-wrapper .bx-controls-auto{
       bottom: 20px;
     }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a{
+        background: transparent;
+        border: 1px solid wheat;
+    }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a:active{
+        background-color: #fff;
+    }
     section.slider .bx-wrapper{
         border:none;
     }
@@ -363,6 +370,13 @@
       bottom: 20px;
       padding: 0%;
     }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a{
+        background: transparent;
+        border: 1px solid wheat;
+    }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a:active{
+        background-color: #fff;
+    }
     section.slider h2{display: none;}
     section.slider > div{
         position: relative;
@@ -715,6 +729,16 @@
     section.slider .bx-wrapper .bx-controls-auto{
       bottom: 20px;
       padding: 0%;
+    }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a{
+        background: transparent;
+        border: 1px solid wheat;
+    }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a:hover{
+        background-color: #fff;
+    }
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a:active{
+        background-color: #fff;
     }
     section.slider h2{display: none;}
     section.slider > div{
