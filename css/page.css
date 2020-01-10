@@ -734,10 +734,7 @@
         background: transparent;
         border: 1px solid wheat;
     }
-    section.slider .bx-wrapper .bx-pager.bx-default-pager a:hover{
-        background-color: #fff;
-    }
-    section.slider .bx-wrapper .bx-pager.bx-default-pager a:active{
+    section.slider .bx-wrapper .bx-pager.bx-default-pager a.active{
         background-color: #fff;
     }
     section.slider h2{display: none;}
